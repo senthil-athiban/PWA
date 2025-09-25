@@ -11,7 +11,19 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior-y: contain;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
+
+body {
+  overscroll-behavior-y: contain;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 
 a {
   font-weight: 500;
